@@ -1,10 +1,10 @@
-## sql-challenge
+# sql-challenge
 Research for Pewlett Hackard (fictional company) for employees employed during the 1980s and 1990s.
 
-# Data 
+## Data 
 departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
 
-# Table Schemata (See ERD diagram in repo)
+## Table Schemata (See ERD diagram in repo)
 -- Create employees, salaries, titles, departments, dept_emp, dept_manager tables
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS salaries;
