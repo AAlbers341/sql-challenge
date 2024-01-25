@@ -5,13 +5,13 @@ Research for Pewlett Hackard (fictional company) for employees employed during t
 departments.csv, dept_emp.csv, dept_manager.csv, employees.csv, salaries.csv, titles.csv
 
 ## Table Schemata (See ERD diagram in repo)
--- Create employees, salaries, titles, departments, dept_emp, dept_manager tables
-DROP TABLE IF EXISTS employees;
-DROP TABLE IF EXISTS salaries;
-DROP TABLE IF EXISTS titles;
-DROP TABLE IF EXISTS departments;
-DROP TABLE IF EXISTS dept_emp;
-DROP TABLE IF EXISTS dept_manager;
+
+DROP TABLE IF EXISTS employees
+DROP TABLE IF EXISTS salaries
+DROP TABLE IF EXISTS titles
+DROP TABLE IF EXISTS departments
+DROP TABLE IF EXISTS dept_emp
+DROP TABLE IF EXISTS dept_manager
 
 CREATE TABLE employees (
 	emp_no INT PRIMARY KEY,
